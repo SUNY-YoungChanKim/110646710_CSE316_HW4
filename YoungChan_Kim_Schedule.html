@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+<style>table{
+  border-spacing: 0px;
+}
+ th {
+    border: 1px solid #ADADAD;
+   text-align: center;
+  }
+.Weekdays{
+  background-color:#3E3E3E;
+  color:white;
+}
+.past{
+  opacity: 0.7;
+}
+.slot{
+  height: 60px;
+  font-size: 11px;
+  vertical-align: top;
+}
+.time{
+  padding: 2px;
+  float:left;
+  font-weight: bold; 
+}
+.className{
+  padding: 2px;
+}
+.schedule{
+  margin:2px;
+  background-color:#85EAEE;
+  border-left: thick solid #0072FF;
+}
+.Back{
+  width: 100px;
+  height: 40px;
+  margin: 10px;
+}
+td{
+  width:200px;
+   border: 1px solid #ADADAD;
+  background-color:#C2BEBE;
+  text-align: left;
+  word-break:break-all;
+}</style>
+</head>
+<body>
+
+      <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products tha<script src="text/javascript"t you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-analytics.js"></script>
+  
+<h1>YoungChanKim</h1>
+<h3>110646710</h3>
+<h4><font color="gray">September 2020</font></h4>
+<h2>If you want to delete a course, just click it</h2>
+<input type="button" class="Back" value="Back" onclick="location.href='index.html'">
+  <table id="mainTable">
+    <tr class="Weekdays">
+      <th >MON</th>
+      <th>TUE</th>
+      <th>WED</th>
+      <th>THU</th>
+      <th>FRI</th>
+      <th>SAT</th>
+      <th>SUN</th>
+    </tr>
+    <tr>
+    <td class="past">30</td>
+    <td class="past">31</td>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+    <td>4</td>
+    <td>5</td>
+    </tr>
+   
+    
+  </table>
+  <script type="text/javascript" src="schedule.js"></script>
+</body>
+</html>

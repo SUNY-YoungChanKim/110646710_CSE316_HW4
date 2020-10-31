@@ -1,0 +1,59 @@
+body{
+    background-color: darkred;
+}
+#top{
+    margin-left: 25%;
+
+}
+#Schedulebutton
+{
+    width: 200px;
+    margin-left: 1000px;
+}
+#middle{
+    background-color: white;
+    margin-left: 380px;
+    width: 854px;
+    height:600px;
+    overflow-y: scroll;
+}
+#Searchbar
+{
+    width: 500px;
+    margin-left:
+}
+#Search
+{
+    margin-left: 30px;
+}
+table{
+    margin-left: 30px;
+}
+.tI
+{
+    width:50px;
+    height: 100px;
+    text-align: center;
+    color: darkblue;
+    text-decoration: underline;
+
+}
+.tl{
+    width: 200px;
+    height: 100px;
+    padding: 5px;
+    color: darkblue;
+    text-decoration: underline;
+}
+.tm
+{
+    width: 250px;
+    height: 100px;
+    color: darkblue;
+}
+.tr
+{
+    width: 200px;
+    height: 100px;
+
+}

@@ -1,0 +1,23 @@
+{
+  "name": "110646710_cse316_hw4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Index.js",
+  "dependencies": {
+    "firebase": "^8.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SUNY-YoungChanKim/110646710_CSE316_HW4.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SUNY-YoungChanKim/110646710_CSE316_HW4/issues"
+  },
+  "homepage": "https://github.com/SUNY-YoungChanKim/110646710_CSE316_HW4#readme"
+}

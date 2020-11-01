@@ -3,10 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "Index.js",
-  "dependencies": {
-    "firebase": "^8.0.0"
-  },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/SUNY-YoungChanKim/110646710_CSE316_HW4/issues"
   },
-  "homepage": "https://github.com/SUNY-YoungChanKim/110646710_CSE316_HW4#readme"
+  "homepage": "https://github.com/SUNY-YoungChanKim/110646710_CSE316_HW4#readme",
+  "dependencies": {
+    "firebase": "^8.0.0"
+  }
 }
